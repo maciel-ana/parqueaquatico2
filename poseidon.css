@@ -391,3 +391,21 @@ section.contato h1{
         flex-wrap: wrap;
     }
 }
+
+    /* barra de rolagem */
+::-webkit-scrollbar {
+    width: 10px; 
+  }
+  
+    /* Estilizando a alça da barra de rolagem */
+  ::-webkit-scrollbar-thumb {
+    background-color: var(--color-blue3);
+    border-radius: 5px;
+  }
+  
+    /* Estilizando a trilha onde o thumb se move*/
+  ::-webkit-scrollbar-track {
+    background-color: #f0f0f0;
+    border-radius: 5px;
+  }
+  
